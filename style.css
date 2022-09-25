@@ -1,7 +1,30 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+body{
+    background-color: #b2bec3;
+}
 
+.box{
+    background-color: white;
+    width: 550px;
+    padding: 30px;
+    margin: 150px;
+    
+}
+
+h1{
+    font-size: 36px;
+    color: #d63031;
+}
+
+.foto{
+    height: 150px;
+    width: 150px;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 50%;
+}
 
 /*
 BARVY:
